@@ -1,0 +1,46 @@
+body{
+   margin: 0;
+   font-family: 'poppins',sans-serif;
+   /* background-color: #333; */
+}
+
+ .app{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .slideshow{
+   flex: 1;
+   background-color: #333;
+   position: relative;
+ }
+
+  .slide{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+  
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center center;
+  }
+ #header{
+   text-align: center;
+   padding: 20px 0;
+ }
+
+ #header>img{
+
+   width: 12%;
+   padding: 10px;
+ }
+
+ #main select{
+  font-size: 1rem;
+ }
+ 
